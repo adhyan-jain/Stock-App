@@ -1,8 +1,9 @@
+import Header from "@/components/Header"
 
 const page = () => {
   return (
     <div className="flex min-h-screen home-wrapper">
-      Hello
+      <Header/>
     </div>
   )
 }
